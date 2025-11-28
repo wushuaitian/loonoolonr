@@ -1,4 +1,5 @@
 <template>
+  <!-- 测试 -->
   <div class="faq-page">
     <!-- 顶部导航：保持原来的 -->
       <header class="navbar">
