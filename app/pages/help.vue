@@ -15,8 +15,13 @@
     <nav class="nav-center">
       <NuxtLink to="/" class="nav-link">首页</NuxtLink>
       <NuxtLink to="/detect" class="nav-link">检测查重</NuxtLink>
-      <NuxtLink to="/history" class="nav-link">历史结果</NuxtLink>
+      <NuxtLink to="/history" class="nav-link">上传报告</NuxtLink>
       <NuxtLink to="/help" class="nav-link nav-lin k-active">了解更多</NuxtLink>
+
+      <button class="nav-link nav-lang">
+            选择语言
+            <span class="lang-caret"></span>
+          </button>
     </nav>
 
     <!-- 右侧头像 -->
@@ -356,6 +361,12 @@ const toggle = (id: number) => {
   height: 34px;
   border-radius: 999px;
   background-image: radial-gradient(circle at 30% 30%, #f9fafb 0, #9ca3af 40%, #111827 100%);
+}
+
+.nav-lang {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
 }
 
 /* 右侧：登陆 / 注册按钮 */
